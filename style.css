@@ -1,0 +1,309 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccc;
+}
+
+.color-primary {
+    color: yellowgreen;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+
+#navbar .logo {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 2px;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+}
+
+#navbar ul li {
+    padding: 10px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+#navbar ul li a:hover{
+
+    background-color: yellowgreen;
+    color: black;
+    border: yellowgreen solid 1px;
+    transition: 1s;
+    border-radius: 5px;
+
+}
+
+#showcase {
+    max-width: 100%;
+    background: url('/img/showcase2.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    background-color: #ccc;
+}
+
+#showcase .showcase-items {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    position: absolute;
+    top: 38px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+        
+}
+
+#showcase .showcase-items .title {
+ 
+    color: white;
+    font-size: 60px;
+    margin: 20px;
+    font-family: cursive;
+
+}
+
+#showcase .showcase-items p {
+
+    color: white;
+    line-height: 1.7rem;
+    margin: 60px;
+
+
+    
+}
+
+#showcase  a {
+
+color: white;
+
+text-decoration: none;
+padding: 10px;
+
+
+
+
+}
+
+#showcase  a:hover {
+background-color: yellowgreen;
+color: black;
+border: yellowgreen solid 1px;
+transition: 1s;
+border-radius: 5px;
+}
+
+.container {
+    display: flex;
+
+ 
+    text-align: center;
+    flex-wrap: wrap;
+    padding-left: 0;
+    
+    
+
+    
+}
+
+.container .box-pizza {
+
+    background: url('/img/pizza.jpeg') no-repeat center center/cover;
+    
+    height: 50vh;
+    flex-basis: 33%;
+}
+.container .box-sea {
+
+    background: url('/img/seafood.jpeg') no-repeat center center/cover;
+    
+    height: 50vh;
+    
+    flex-basis: 33%;
+}
+.container .box-diet {
+
+    background: url('/img/dietfood.jpeg') no-repeat center center/cover;
+    
+    height: 50vh;
+    
+    flex-basis: 33%;
+}
+.container .box-bbq {
+
+    background: url('/img/bbq.jpeg') no-repeat center center/cover;
+    
+    height: 50vh;
+    flex-basis: 33%;
+    
+}
+.container .box-burger {
+
+    background: url('/img/burger.jpeg') no-repeat center center/cover;
+    
+    height: 50vh;
+    flex-basis: 33%;
+    
+}
+.container .box-mex {
+
+    background: url('/img/mexican.jpeg') no-repeat center center/cover;
+    
+    height: 50vh;
+    flex-basis: 33%;
+    
+}
+.container .box-chines {
+
+    background: url('/img/chines.jpeg') no-repeat center center/cover;
+    
+    height: 50vh;
+    flex-basis: 33%;
+}
+.container .box-arab {
+
+    background: url('/img/arabic.jpeg') no-repeat center center/cover;
+    
+    height: 50vh;
+    flex-basis: 33%;
+    
+}
+.container .box-soft {
+
+    background: url('/img/softdrink.jpeg') no-repeat center center/cover;
+    
+    height: 50vh;
+    flex-basis: 33%;
+    
+}
+.container .box-sweet {
+
+    background: url('/img/sweets.jpeg') no-repeat center center/cover;
+    
+    height: 50vh;
+    flex-basis: 33%;
+    
+}
+.container .box-hot {
+
+    background: url('/img/hotdrinks.jpeg') no-repeat center center/cover;
+    
+    height: 50vh;
+    flex-basis: 33%;
+    
+}
+.container .box-salad {
+
+    background: url('/img/salad.jpeg') no-repeat center center/cover;
+    
+    height: 50vh;
+    flex-basis: 33%;
+    
+}
+
+.container h2 {
+
+    margin: 60px 0;
+    color: white;
+    font-size: 80px;
+}
+
+.container p {
+    line-height: 1.3em;
+    color: white;
+}
+
+.container h2:hover {
+    color: yellowgreen;
+    transition: 1s;
+    background-color: black;
+}
+
+.Who {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 300px;
+}
+
+#Who {
+    display: flex;
+}
+
+#Who div {
+    flex: 1;
+   
+}
+
+ #Who .imgWho {
+     
+     background: url('/img/chef.jpeg') no-repeat center center/cover;
+     height: 350px;
+ }
+
+ #Who .contentWho {
+     background-color: #343a40;
+     color: white;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+     
+ }
+
+ #Who .contentWho h4 {
+
+    color: yellowgreen;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+    border-bottom: 1px solid yellowgreen;
+ }
+
+ #Who .contentWho p {
+
+    font-size: 20px;
+    line-height: 1.3em;
+    padding: 1.75rem;
+
+
+ }
+
+ #Who .contentWho h5 {
+     padding: 1.75rem;
+     color: yellowgreen;
+     font-size: 15px;
+ }
+
+ #Who .contentWho ul {
+     list-style: none;
+     font-size: 20;
+ }
+
